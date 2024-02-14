@@ -1,12 +1,13 @@
 package string;
 
-public class Testing {
+public class reverseString {
 
+	// Input "Hello Test"
 	// Output "Test Hello"
 
 	public static String revrseString(String str) {
 
-		String[] word = str.split("\\s+");
+		String[] word = str.split("\\W");
 
 		StringBuilder sb = new StringBuilder();
 

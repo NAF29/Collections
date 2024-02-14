@@ -1,9 +1,5 @@
 package string;
 
-import java.util.Arrays;
-
-import org.apache.commons.text.translate.EntityArrays;
-
 public class Add_Number_String {
 
 	public static void main(String[] args) {
